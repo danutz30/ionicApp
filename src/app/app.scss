@@ -14,3 +14,20 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+.loginBtn{
+    width:50%; 
+    height: 50px;
+    margin-left: 25%;
+    margin-right: 25%; 
+    margin-top: 10%;
+}
+
+.loginForm{
+    width: 90%;
+    height: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 45%;
+    margin-bottom: 25%;
+}

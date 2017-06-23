@@ -1,3 +1,4 @@
+import { MyApp } from './../../app/app.component';
 import { LoginPage } from './../login/login';
 import { Component } from '@angular/core';
 
@@ -15,8 +16,10 @@ export class TabsPage {
   tab2Root = AboutPage;
   tab3Root = ContactPage;
   tab4Root = HelpPage;
-
+  tab5Root = MyApp;
   constructor() {
 
   }
+
+
 }

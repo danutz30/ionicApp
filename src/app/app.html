@@ -1,5 +1,5 @@
 
-<div>
+<div class="loginForm">
 <ion-item>
 <ion-label>Username:</ion-label>
 <ion-input type="text" placeholder="Username"></ion-input>
@@ -9,16 +9,10 @@
 <ion-label>Password:</ion-label>
 <ion-input type="password" placeholder="Password"></ion-input>
 </ion-item>
-<br>
 
-<button myitem [hidden]="isLoggedIn" (click)='onClick();' style="width:300px; height: 50px; margin: 40px;">Login</button>
+
+<button class="loginBtn" myitem [hidden]="isLoggedIn" (click)='onClick();'>Login</button>
 </div>
-
-
-
-
-
-
 
 <ion-nav [root]="rootPage" [hidden]="!isLoggedIn"></ion-nav>
 
